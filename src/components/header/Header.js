@@ -11,11 +11,11 @@ export default class Header extends Component {
           <div className='links'>
             <a className='home' href="#">MENU</a>
 
-            <a className='products' href="#">ABOUT US</a>
+            <a className='products' href="#about">ABOUT US</a>
 
-            <a className='about' href="#">PRESS</a>
+            <a className='about' href="#press">PRESS</a>
 
-            <a className='about' href="#">GALLERY</a>
+            <a className='about' href="#gallery">GALLERY</a>
 
           </div>
           <div className="title"><h2>PIZZA BARN</h2></div>
