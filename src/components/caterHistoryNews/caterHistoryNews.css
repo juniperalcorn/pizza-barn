@@ -1,10 +1,103 @@
-/* .cHN-historyBlock{
-    background-image: url('../../assets/images/Gallery')
-} */
+.cHN-historyBlock{
+    background-image: url('../../assets/desktop_timelinephoto.png');
+    background-size: 1440px 534px;
+    height: 534px;
+}
+.cHN-historyBlock-header{
+    width: 687px;
+    height: 48px;
+    font-family: Impact;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color:#fbfbfb;
+}
+/* CATERING */
+.cHN-caterBlock-personalize{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cHN-caterBlock-personalize-img{
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    height: 378px;
+}
+.cHN-caterBlock-personalize-info{
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 378px;
+    background-color: #d53717;
+}
+.cHN-caterBlock-personalize-info-header{
+  width: 148px;
+  height: 61px;
+  font-family: Impact;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #fbfbfb;
+}
+.cHN-caterBlock-personalize-info-description{
+    width: 162px;
+    height: 100px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #fbfbfb;
+}
+.cHN-caterBlock-personalize-info-price{
+    width: 128px;
+    height: 23px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #fbfbfb;
+}
 
+.cHN-caterBlock-cater{
+  flex-grow: 2;
+  flex-shrink: 2;
+  height: 378px;
+  background-color: rgba(231, 221, 185, 0.5);
+}
+.cHN-caterBlock-cater-title{
+  width: 176px;
+  height: 48px;
+  font-family: Impact;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+/* NEWS */
 .cHN-newsBlock{
     display: flex;
     flex-direction: column;
+    height: 405px;
+    margin-top: 56px;
 }
 .cHN-newsBlock-header{
     display: flex;
@@ -24,4 +117,33 @@
 .cHN-newsBlock-linkContain{
     display: flex;
     flex-direction: row;
+    margin: 100px 135px 135px 128px;
+    /* margin-left: 128px;
+    margin-right: 135px;
+    margin-bottom: 135px; */
+    justify-content: space-between;
+}
+#foodNet{
+  width: 94px;
+  height: 94px;
+}
+#buzzfeed{
+  width: 163px;
+  height: 31px;
+}
+#timeMag{
+  width: 124px;
+  height: 39px;
+}
+#thrillist{
+    width: 110px;
+    height: 37px;
+}
+#foodbeast{
+    width: 227px;
+    height: 34px;
+}
+#travel{
+    width: 124px;
+    height: 49px;
 }
