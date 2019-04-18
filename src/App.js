@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header/Header.js'
+import Header from './components/header/Header.js'
 import CaterHistoryNews from './components/caterHistoryNews/caterHistoryNews.js'
 import Media from './components/media/Media'
 
