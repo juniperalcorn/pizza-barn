@@ -13,7 +13,7 @@ class CaterHistoryNews extends Component {
                 <div className='cHN-caterBlock'>
 
                     <div className='cHN-caterBlock-personalize'>
-                        <div className='cHN-caterBlock-personalize-img'></div>
+                        <div className='cHN-caterBlock-personalize-img'><img src='../../assets/desktop_personalizedpizza.png'/></div>
                         <div className='cHN-caterBlock-personalize-info'></div>
                     </div>
 
