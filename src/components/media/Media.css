@@ -12,6 +12,11 @@
     flex-direction: column
 }
 
+.mobile__media__container {
+    display: none;
+    flex-direction: column;
+}
+
 .media__container__copy {
     flex-direction: column;
     width: 100%;
