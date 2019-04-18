@@ -10,6 +10,9 @@ import thrillist from '../../assets/images/Logos/THRILLIST.png'
 import foodbeast from '../../assets/images/Logos/foodbeast.png'
 import travel from '../../assets/images/Logos/Travel_Channel_logo-black.png'
 
+import mobileAbout from '../../assets/images/mobile-pics/Mobile_AboutUs.png'
+import mobileLine from '../../assets/images/mobile-pics/Mobile_Timeline.png'
+
 //food network>buzzfeed>time>thrillist>foodbeast>travel
 class CaterHistoryNews extends Component {
     constructor(props){
@@ -31,8 +34,9 @@ class CaterHistoryNews extends Component {
                         </div>
                     </div>
 
+                    <div className='cHN-caterBlock-cater-title-mobile'>CATERING</div>
                     <div className='cHN-caterBlock-cater'>
-                        <div className='cHN-caterBlock-cater-title'> CATERING</div>
+                        <div className='cHN-caterBlock-cater-title'>CATERING</div>
                         <div className='cHN-caterBlock-cater-info'>
                             <div className='cHN-caterBlock-cater-info-item'>Meatball Parmesan</div>
                             <div className='cHN-caterBlock-cater-info-item'>Eggplant Parm Party</div> 
@@ -65,6 +69,7 @@ class CaterHistoryNews extends Component {
                 </div>
 
                 <div className='cHN-historyBlock'>
+                    <div className='cHN-historyBlock-mobileImg'><img id='mobileAboutImage' src={mobileAbout}/></div>
                     <div className='cHN-historyBlock-header'>YONKER’S BEST PIZZA SINCE 1975</div>
 
                     <div className='cHN-historyBlock-lineContain'>
@@ -74,6 +79,7 @@ class CaterHistoryNews extends Component {
                             <div id='cHN-historyBlock-lineContain-years-3'>Now</div>
                         </div>
                         <div className='cHN-historyBlock-lineContain-line'><img id='bigLine' src={bigLine}/></div>
+                        <div className='cHN-historyBlock-lineContain-line-mobile'><img id='mobileLine' src={mobileLine}/></div>
                         <div className='cHN-historyBlock-lineContain-info'>
                             <div className='cHN-historyBlock-lineContain-info-1'>Pizza Barn opened its doors on the corner of McLean and Van Cortlandt Park Avenue in the beautiful city of Yonkers, NY. It was one of the few pizzerias, if not the very first, to offer delivery service in the city!</div>
                             <div className='cHN-historyBlock-lineContain-info-2'>Pizza Barn unveiled its Super Slice, a 2 foot slice that instantly became an internet sensation, attracting fans from around the globe to attempt to eat the "ginormous" slice. What many people hadn't expected was to find an amazing "slice" of pizza that was more than just a "gimmick".</div>
