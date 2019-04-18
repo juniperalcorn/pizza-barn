@@ -216,7 +216,6 @@ export default class Menu extends Component {
                             <i className='item'>Grilled Chicken</i>
                             <i className="price"> $13.00</i> 
                         </li>
-                        delete this
                     </ul>
                 </div>
             </div>
