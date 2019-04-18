@@ -28,7 +28,7 @@ class CaterHistoryNews extends Component {
 
                 <div className='cHN-newsBlock'>
                     <div className='cHN-newsBlock-header'>PEOPLE LOVE PIZZA BARN!</div>
-                    <a href='#'><img src='#'></img></a>
+                    <a href='#'><img src='../../assets/images/Logos/foodnetwork_logo_black.png'></img></a>
                     <a href='#'><img src='#'></img></a>
                     <a href='#'><img src='#'></img></a>
                     <a href='#'><img src='#'></img></a>
