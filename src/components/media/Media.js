@@ -54,6 +54,48 @@ const Media = () => {
                     <img className="media__container__gallery__image" src={Gallery8} alt="Gallery8"></img>
                 </div>
             </div>
+            <div className="mobile__media__container">
+                <ReactPlayer
+                    url="https://youtu.be/pZvhmWtDvUw"
+                    playing={false}
+                    width="320px"
+                    height="170px"
+                    style={{display: "flex", float: "left"}}
+                >
+                </ReactPlayer>
+                <ReactPlayer
+                    url="https://youtu.be/Hzh_9iWumeE"
+                    playing={false}
+                    width="320px"
+                    height="170px"
+                    style={{display: "flex", float: "left"}}
+                >
+                </ReactPlayer>
+                <ReactPlayer
+                    url="https://youtu.be/abK6eKiX_Bc"
+                    playing={false}
+                    width="320px"
+                    height="170px"
+                    style={{display: "flex", float: "right"}}
+                >
+                </ReactPlayer>
+                    <div className="media__container__copy" id="gallery">
+                        <span className="media__container__copy__header">DO YOU HAVE WHAT IT TAKES TO FINISH A SUPER SLICE?</span> <br/>
+                        Post a selfie with a #SuperSlice and tag us to be featured on our social media pages!<br/>
+                        @PizzaBarnYonkers on Instagram &amp; Twitter
+                </div>
+                <div className="media__container__gallery">
+                    <img className="media__container__gallery__image" src={Gallery1} alt="Gallery1"></img>
+                    <img className="media__container__gallery__image" src={Gallery2} alt="Gallery2"></img>
+                    <img className="media__container__gallery__image" src={Gallery3} alt="Gallery3"></img>
+                    <img className="media__container__gallery__image" src={Gallery4} alt="Gallery4"></img>
+                    <img className="media__container__gallery__image" src={Gallery5} alt="Gallery5"></img>
+                    <img className="media__container__gallery__image" src={Gallery6} alt="Gallery6"></img>
+                    <img className="media__container__gallery__image" src={Gallery7} alt="Gallery7"></img>
+                    <img className="media__container__gallery__image" src={Gallery8} alt="Gallery8"></img>
+                </div>
+            </div>
+ 
         </div>
     )
 }
