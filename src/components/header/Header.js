@@ -9,7 +9,7 @@ export default class Header extends Component {
         <img className="backImage"src={slicePizzaBack}/>
           <div className='header'>
           <div className='links'>
-            <a className='home' href="#">MENU</a>
+            <a className='home' href="#menu">MENU</a>
 
             <a className='products' href="#about">ABOUT US</a>
 
