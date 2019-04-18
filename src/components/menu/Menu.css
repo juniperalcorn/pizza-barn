@@ -1,49 +1,117 @@
-.menu_container {
+.menu_main_container {
     display: flex;
+    flex-direction: column;
     width: 1440px;
     height: 731px;
     background-color: #ffffff;
-    width: 100%;
+    margin: 0 auto;
+    
 }
 .menu_headline_section {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+}
+/* --- MENU with HORIZONTAL BAR BEHIND IT --- */
+h1 { 
+    width:100%; 
+    text-align:center; 
+    border-bottom: 1px solid red; 
+    line-height:0.1em; 
+    margin:10px 0 20px; 
+    color: red;
+    font-family: impact;
+} 
+
+h1 span { 
+    background:#fff; 
+    padding:0 10px; 
 }
 
-h1.menu_headline {
-    color: red;
+h1.menu_headline_section {
+    width:100%; 
+    text-align:center; 
+    background-origin: padding-box;
+    bottom: 1px solid #000; 
+    line-height:0.1em; 
+    margin:10px 0 20px;
+}
+/* --- MENU with HORIZONTAL BAR ENDS HERE --- */
+
+
+.menu_items_container {
+    width: 100%;
+    padding-left: 134px;
+    height: 717px;
+    font-style: normal;
 }
 
 h2.menu_category_titles {
     color: black;
+    font-family: impact;
 }
 
-p.menu_items_text {
+/* --- ITEMS with PRICES on SAME LINE SPACED APART --- */
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .list {
+    display: flex;
+  }
+  
+  .item {
+    margin-right: 0.5em;
+    flex: 1;
+    display: flex;
+  }
+  
+  .price {
+    text-align: right;
+    flex: 0 0 4em;
+  }
+
+
+/* --- ITEMS with PRICES on SAME LINE SPACED APART --- */
+
+.superslices_menu_section {
     color: black;
+    width: 40%;
 }
 
-.superslices_section {
+.appetizers_menu_section {
     color: black;
+    width: 40%;
 }
 
-.appetizers_section {
+.salads_menu_section {
     color: black;
+    width: 40%;
 }
 
-.salads_section {
+.desserts_menu_section {
     color: black;
+    width: 40%;
 }
 
-.desserts_section {
+.pasta_entrees_menu_section {
     color: black;
+    width: 40%;
 }
 
-.pasta_entrees_section {
+.wedges_menu_section {
     color: black;
+    width: 40%;
 }
 
-.wedges_section {
-    color: black;
-}
+
+
+
 
 
 
