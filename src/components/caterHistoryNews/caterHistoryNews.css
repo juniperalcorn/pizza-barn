@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
 .cHN-historyBlock{
     background-image: url('../../assets/desktop_timelinephoto.png');
     background-size: 1440px 534px;
@@ -18,20 +21,77 @@
     margin: 0 auto;
     padding-top: 82px;
 }
+.cHN-historyBlock-lineContain{
+    display: flex;
+    flex-direction: row;
+    height: 404px;
+    padding-top: 56px;
+    padding-bottom: 68px;
+}
+.cHN-historyBlock-lineContain-years{
+    width: 38px;
+    height: 24px;
+    font-family: Impact;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color:#fbfbfb;
+    padding-left: 376px;
+}
+#cHN-historyBlock-lineContain-years-2{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.cHN-historyBlock-lineContain-line{
+    margin-left: 15px;
+}
+#bigLine{
+    max-height: 219px;
+}
+.cHN-historyBlock-lineContain-info{
+    width: 600px;
+    height: 280px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.7px;
+    text-align: justify;
+    color:#fbfbfb;
+    margin-left: 26px;
+}
+/* #cHN-historyBlock-lineContain-info-1 */
+#cHN-historyBlock-lineContain-info-2{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+/* #cHN-historyBlock-lineContain-info-3 */
+
+
+
 /* CATERING */
 .cHN-caterBlock-personalize{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    float: left;
 }
 .cHN-caterBlock-personalize-img{
     /* flex-grow: 1; */
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
+    width: 328px;
     height: 378px;
 }
 .cHN-caterBlock-personalize-info{
-    flex-grow: 1;
-    flex-shrink: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    width: 239px;
     height: 378px;
     background-color: #d53717;
 
@@ -54,7 +114,7 @@
 .cHN-caterBlock-personalize-info-description{
     width: 162px;
     height: 100px;
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -69,7 +129,7 @@
 .cHN-caterBlock-personalize-info-price{
     width: 128px;
     height: 23px;
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
@@ -79,11 +139,13 @@
     text-align: center;
     color: #fbfbfb;
     margin: 0 auto;
+    margin-top: 22px;
 }
 
 .cHN-caterBlock-cater{
-  flex-grow: 2;
-  flex-shrink: 2;
+  /* flex-grosw: 2; */
+  /* flex-shrink: 1; */
+  width: 873px;
   height: 378px;
   background-color: rgba(231, 221, 185, 0.5);
   display: flex;
@@ -106,7 +168,7 @@
 .cHN-caterBlock-cater-info{
     width: 253px;
     height: 280px;
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -120,7 +182,7 @@
 .cHN-caterBlock-cater-prices{
     width: 184px;
     height: 271px;
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
