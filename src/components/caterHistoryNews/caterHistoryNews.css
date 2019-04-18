@@ -181,13 +181,11 @@
     color:#fbfbfb;
     margin-left: 26px;
 }
-#cHN-historyBlock-lineContain-info-1{
-    margin-top: -20px;
+.cHN-historyBlock-lineContain-info-1{
+    margin-top: -5px;
     margin-bottom: 27px;
 }
-#cHN-historyBlock-lineContain-info-2{
-    padding-top: 75px;
-    padding-bottom: 77px;
+.cHN-historyBlock-lineContain-info-2{
     margin-bottom: 25px;
 }
 
@@ -245,3 +243,6 @@
     width: 124px;
     height: 49px;
 }
+
+/* MEDIA QUERY FOR ABOUT US */
+

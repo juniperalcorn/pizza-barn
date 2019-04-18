@@ -75,7 +75,7 @@ class CaterHistoryNews extends Component {
                         </div>
                         <div className='cHN-historyBlock-lineContain-line'><img id='bigLine' src={bigLine}/></div>
                         <div className='cHN-historyBlock-lineContain-info'>
-                            <div className='cHN-historyBlock-lineContain-info-1'><p>Pizza Barn opened its doors on the corner of McLean and Van Cortlandt Park Avenue in the beautiful city of Yonkers, NY. It was one of the few pizzerias, if not the very first, to offer delivery service in the city!</p></div>
+                            <div className='cHN-historyBlock-lineContain-info-1'>Pizza Barn opened its doors on the corner of McLean and Van Cortlandt Park Avenue in the beautiful city of Yonkers, NY. It was one of the few pizzerias, if not the very first, to offer delivery service in the city!</div>
                             <div className='cHN-historyBlock-lineContain-info-2'>Pizza Barn unveiled its Super Slice, a 2 foot slice that instantly became an internet sensation, attracting fans from around the globe to attempt to eat the "ginormous" slice. What many people hadn't expected was to find an amazing "slice" of pizza that was more than just a "gimmick".</div>
                             <div className='cHN-historyBlock-lineContain-info-3'>The Super Slice is truly a delicious piece of New York style pizza, with the perfect proportion of crust, sauce, cheese and love. Be sure to stop in, tell us where you're from, and tag us in your pics. We LOVE posting them on our Wall of Fame.</div>
                         </div>
