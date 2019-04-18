@@ -1,0 +1,49 @@
+.menu_container {
+    display: flex;
+    width: 1440px;
+    height: 731px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.menu_headline_section {
+    display: flex;
+}
+
+h1.menu_headline {
+    color: red;
+}
+
+h2.menu_category_titles {
+    color: black;
+}
+
+p.menu_items_text {
+    color: black;
+}
+
+.superslices_section {
+    color: black;
+}
+
+.appetizers_section {
+    color: black;
+}
+
+.salads_section {
+    color: black;
+}
+
+.desserts_section {
+    color: black;
+}
+
+.pasta_entrees_section {
+    color: black;
+}
+
+.wedges_section {
+    color: black;
+}
+
+
+
