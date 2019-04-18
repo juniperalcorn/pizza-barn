@@ -1,0 +1,27 @@
+/* .cHN-historyBlock{
+    background-image: url('../../assets/images/Gallery')
+} */
+
+.cHN-newsBlock{
+    display: flex;
+    flex-direction: column;
+}
+.cHN-newsBlock-header{
+    display: flex;
+    align-self: center;
+    width: 444px;
+    height: 50px;
+    font-family: Impact;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #d53717;
+}
+.cHN-newsBlock-linkContain{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './caterHistoryNews.css'
 
 class CaterHistoryNews extends Component {
     constructor(props){
@@ -28,12 +29,14 @@ class CaterHistoryNews extends Component {
 
                 <div className='cHN-newsBlock'>
                     <div className='cHN-newsBlock-header'>PEOPLE LOVE PIZZA BARN!</div>
-                    <a href='#'><img src='../../assets/images/Logos/foodnetwork_logo_black.png'></img></a>
-                    <a href='#'><img src='#'></img></a>
-                    <a href='#'><img src='#'></img></a>
-                    <a href='#'><img src='#'></img></a>
-                    <a href='#'><img src='#'></img></a>
-                    <a href='#'><img src='#'></img></a>
+                    <div className='cHN-newsBlock-linkContain'>
+                        <a href='#'><img src='/Users/jalcorn/ga/unit3/pizza_barn/pizza-barn/src/assets/images/Logos/foodnetwork_logo_black.png'></img></a>
+                        <a href='#'><img src='#'></img></a>
+                        <a href='#'><img src='#'></img></a>
+                        <a href='#'><img src='#'></img></a>
+                        <a href='#'><img src='#'></img></a>
+                        <a href='#'><img src='#'></img></a>
+                    </div>
                 </div>
 
 
