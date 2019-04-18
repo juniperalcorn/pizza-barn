@@ -15,6 +15,8 @@
     letter-spacing: normal;
     text-align: center;
     color:#fbfbfb;
+    margin: 0 auto;
+    padding-top: 82px;
 }
 /* CATERING */
 .cHN-caterBlock-personalize{
@@ -32,6 +34,7 @@
     flex-shrink: 1;
     height: 378px;
     background-color: #d53717;
+
 }
 .cHN-caterBlock-personalize-info-header{
   width: 148px;
@@ -45,6 +48,8 @@
   letter-spacing: -0.5px;
   text-align: center;
   color: #fbfbfb;
+  padding-top: 46px;
+  margin: 0 auto;
 }
 .cHN-caterBlock-personalize-info-description{
     width: 162px;
@@ -58,6 +63,8 @@
     letter-spacing: -0.2px;
     text-align: center;
     color: #fbfbfb;
+    padding-top: 29px;
+    margin: 0 auto;
 }
 .cHN-caterBlock-personalize-info-price{
     width: 128px;
@@ -71,6 +78,7 @@
     letter-spacing: -0.7px;
     text-align: center;
     color: #fbfbfb;
+    margin: 0 auto;
 }
 
 .cHN-caterBlock-cater{
@@ -78,6 +86,8 @@
   flex-shrink: 2;
   height: 378px;
   background-color: rgba(231, 221, 185, 0.5);
+  display: flex;
+  flex-direction: row;
 }
 .cHN-caterBlock-cater-title{
   width: 176px;
@@ -90,7 +100,38 @@
   line-height: normal;
   letter-spacing: -0.5px;
   color: #000000;
+  padding-top: 171px;
+  padding-left: 66px;
 }
+.cHN-caterBlock-cater-info{
+    width: 253px;
+    height: 280px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: -0.3px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top: 51px;
+}
+.cHN-caterBlock-cater-prices{
+    width: 184px;
+    height: 271px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: -0.3px;
+    color: #000000;
+    padding-left: 46px;
+    padding-top: 51px;
+}
+
 
 /* NEWS */
 .cHN-newsBlock{
@@ -122,6 +163,7 @@
     margin-right: 135px;
     margin-bottom: 135px; */
     justify-content: space-between;
+    align-items:center;
 }
 #foodNet{
   width: 94px;

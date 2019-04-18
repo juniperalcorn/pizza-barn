@@ -32,24 +32,54 @@ class CaterHistoryNews extends Component {
 
                     <div className='cHN-caterBlock-cater'>
                         <div className='cHN-caterBlock-cater-title'> CATERING</div>
-                        <div className='cHN-caterBlock-cater-info'>Meatball Parmesan
-Eggplant Parm Party 
-Rolled Eggplant Parm
-Sausage, Peppers & Onions
-Chicken Cutlet Parmesan 
-Chicken Marsala (w mushrooms)  
-Chicken Francese (lemon butter)  
-Fresh Garden Salad
-Our Famous Penne Alla Vodka
-Homestyle Baked Ziti 
-Italian 6’ wedge with the works
-American 6’ wedge with the works</div>
-                        <div className='cHN-caterBlock-cater-prices'></div>
+                        <div className='cHN-caterBlock-cater-info'>
+                            <div className='cHN-caterBlock-cater-info-item'>Meatball Parmesan</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Eggplant Parm Party</div> 
+                            <div className='cHN-caterBlock-cater-info-item'>Rolled Eggplant Parm</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Sausage, Peppers &amp; Onions</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Chicken Cutlet Parmesan</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Chicken Marsala (w mushrooms)</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Chicken Francese (lemon butter)</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Fresh Garden Salad</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Our Famous Penne Alla Vodka</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Homestyle Baked Ziti</div>
+                            <div className='cHN-caterBlock-cater-info-item'>Italian 6’ wedge with the works</div>
+                            <div className='cHN-caterBlock-cater-info-item'>American 6’ wedge with the works</div>
+                        </div>
+                        <div className='cHN-caterBlock-cater-prices'>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $90.00 / Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $90.00 / Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $55.00 / Half $45.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $75.00 / Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $75.00 / Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>$120.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>$110.00</div>
+                        </div>
                     </div>
                 </div>
 
                 <div className='cHN-historyBlock'>
                     <div className='cHN-historyBlock-header'>YONKER’S BEST PIZZA SINCE 1975</div>
+
+                    <div className='cHN-historyBlock-lineContain'>
+                        <div className='cHN-historyBlock-lineContain-years'>
+                            <div className='cHN-historyBlock-lineContain-years-1'></div>
+                            <div className='cHN-historyBlock-lineContain-years-2'></div>
+                            <div className='cHN-historyBlock-lineContain-years-3'></div>
+                        </div>
+                        <div className='cHN-historyBlock-lineContain-line'><img></img></div>
+                        <div className='cHN-historyBlock-lineContain-info'>
+                            <div className='cHN-historyBlock-lineContain-info-1'></div>
+                            <div className='cHN-historyBlock-lineContain-info-2'></div>
+                            <div className='cHN-historyBlock-lineContain-info-3'></div>
+                        </div>
+                    
+                    </div>
                 
                 </div>
 
@@ -58,9 +88,9 @@ American 6’ wedge with the works</div>
                     <div className='cHN-newsBlock-linkContain'>
                         <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='foodNet' src={foodNet}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='buzzfeed' src={buzzfeed}></img></a></div>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='timeMag' src={timeMag}></img></a></div>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='thrillist' src={thrillist}></img></a></div>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='foodbeast' src={foodbeast}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='http://time.com/4687790/weirdest-pizzas/'><img id='timeMag' src={timeMag}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.thrillist.com/news/nation/pizza-barn-yonkers-super-slice'><img id='thrillist' src={thrillist}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodbeast.com/news/super-slice-pizza-barn/'><img id='foodbeast' src={foodbeast}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='travel' src={travel}></img></a></div>
                     </div>
                 </div>
