@@ -1,4 +1,5 @@
 .App {
+<<<<<<< HEAD
     width: 1444px;
 }
 
@@ -6,4 +7,12 @@
     .App {
         width: 320px;
     }
+=======
+  height: 100%;
+  width: 1444px;
+}
+
+html {
+  scroll-behavior: smooth;
+>>>>>>> 84f61e70b5d01f471a02a5ba2439d6d3ff15098f
 }

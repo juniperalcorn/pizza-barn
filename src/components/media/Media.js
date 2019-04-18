@@ -38,7 +38,7 @@ const Media = () => {
                     style={{display: "flex", float: "right"}}
                 >
                 </ReactPlayer>
-                    <div className="media__container__copy">
+                    <div className="media__container__copy" id="gallery">
                         <span className="media__container__copy__header">DO YOU HAVE WHAT IT TAKES TO FINISH A SUPER SLICE?</span> <br/>
                         Post a selfie with a #SuperSlice and tag us to be featured on our social media pages!<br/>
                         @PizzaBarnYonkers on Instagram &amp; Twitter

@@ -68,7 +68,7 @@ class CaterHistoryNews extends Component {
                     </div>
                 </div>
 
-                <div className='cHN-historyBlock'>
+                <div className='cHN-historyBlock' id='about'>
                     <div className='cHN-historyBlock-mobileImg'><img id='mobileAboutImage' src={mobileAbout}/></div>
                     <div className='cHN-historyBlock-header'>YONKER’S BEST PIZZA SINCE 1975</div>
 
@@ -90,7 +90,7 @@ class CaterHistoryNews extends Component {
                 
                 </div>
 
-                <div className='cHN-newsBlock'>
+                <div className='cHN-newsBlock' id="press">
                     <div className='cHN-newsBlock-header'>PEOPLE LOVE PIZZA BARN!</div>
                     <div className='cHN-newsBlock-linkContain'>
                         <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='foodNet' src={foodNet}></img></a></div>
