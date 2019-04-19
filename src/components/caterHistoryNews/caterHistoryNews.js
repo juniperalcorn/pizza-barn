@@ -44,12 +44,10 @@ caterDisplay(){
                     </div>
 
 
-                    {/* <Collapsible trigger='CATERING MENU' contentInnerClassName='mobileView'> */}
                     <button className='collapsible' onClick={this.caterDisplay}>CATERING MENU</button>
                     <div className={this.state.menuCondition ? 'caterBlock-Mobile' : 'hide'}>
                         <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
 
-                        {/* <div className='cHN-caterBlock-cater-info' > */}
 
                         <div className='gridContain'>
                                 <div className='cHN-caterBlock-cater-info-item' id='cater1'>Meatball Parmesan</div>
@@ -64,9 +62,7 @@ caterDisplay(){
                                 <div className='cHN-caterBlock-cater-info-item' id='cater10'>Homestyle Baked Ziti</div>
                                 <div className='cHN-caterBlock-cater-info-item' id='cater11'>Italian 6’ wedge with the works</div>
                                 <div className='cHN-caterBlock-cater-info-item' id='cater12'>American 6’ wedge with the <br className='mobileBreak'/>works</div>
-                            {/* </div>  */}
-
-                            {/* <div className='cHN-caterBlock-cater-prices'> */}
+                         
                                 <div className='cHN-caterBlock-cater-prices-item' id='price1'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
                                 <div className='cHN-caterBlock-cater-prices-item' id='price2'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
                                 <div className='cHN-caterBlock-cater-prices-item' id='price3'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
@@ -79,7 +75,7 @@ caterDisplay(){
                                 <div className='cHN-caterBlock-cater-prices-item'id='price10'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
                                 <div className='cHN-caterBlock-cater-prices-item' id='price11'>$120.00</div>
                                 <div className='cHN-caterBlock-cater-prices-item' id='price12'>$110.00</div>
-                            {/* </div>  */}
+                           
 
                             </div>
                         </div>
