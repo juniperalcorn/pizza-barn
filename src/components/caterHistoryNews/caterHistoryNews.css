@@ -290,8 +290,9 @@
     display: none;
  }
  .cHN-caterBlock-cater{
-    max-width: 480px;
-    min-width: 320px;
+    /* max-width: 480px;
+    min-width: 320px; */
+    width: 100%;
     height: 700px;
     background-color:#fbfbfb;
     margin-top: 0;
@@ -482,16 +483,16 @@
 }
 .cHN-historyBlock-mobileImg{
     display: block;
-    max-width: 480px;
-    height: 167px;
+    /* max-width: 480px; */
+    height: 287px;
     margin: 0;
 }
 #mobileAboutImage{
     /* max-width: 480px;
     min-width: 320px; */
     /* height: 167px; */
-    max-height: 167px;
-    width: auto;
+    /* max-height: 287px; */
+    width: 100%;
 }
 .cHN-historyBlock-header{
     display: flex; 
@@ -568,7 +569,7 @@
     color: #000000;
     /* margin-left: 22px;
     margin-top: 20px; */
-    margin: 0px 104px 20.3px -112px;
+    margin: 0px 104px 20.3px 0px;
 }
 .cHN-newsBlock-linkContain{
     display: none;

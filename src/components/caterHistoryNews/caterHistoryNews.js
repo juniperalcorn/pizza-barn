@@ -10,7 +10,7 @@ import thrillist from '../../assets/images/Logos/THRILLIST.png'
 import foodbeast from '../../assets/images/Logos/foodbeast.png'
 import travel from '../../assets/images/Logos/Travel_Channel_logo-black.png'
 
-import mobileAbout from '../../assets/images/mobile-pics/Mobile_AboutUs.png'
+import mobileAbout from '../../assets/images/mobile-pics/Mobile_AboutUs_480.png'
 import mobileLine from '../../assets/images/mobile-pics/Mobile_Timeline.png'
 
 class CaterHistoryNews extends Component {
