@@ -97,7 +97,7 @@ class CaterHistoryNews extends Component {
                     <div className='cHN-newsBlock-header'>PEOPLE LOVE PIZZA BARN!</div>
                     <div className='cHN-newsBlock-linkContain'>
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodnetwork.com/restaurants/ny/yonkers/pizza-barn-restaurant'><img id='foodNet' src={foodNet}></img></a></div>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.buzzfeed.com/francineroettger/65-of-the-most-instagrammable-food-spots-in-nyc-307sw'><img id='buzzfeed' src={buzzfeed}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.buzzfeed.com/bfmp/videos/19141'><img id='buzzfeed' src={buzzfeed}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='http://time.com/4687790/weirdest-pizzas/'><img id='timeMag' src={timeMag}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.thrillist.com/news/nation/pizza-barn-yonkers-super-slice'><img id='thrillist' src={thrillist}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodbeast.com/news/super-slice-pizza-barn/'><img id='foodbeast' src={foodbeast}></img></a></div>
