@@ -45,6 +45,11 @@ h1.menu_headline_section {
     margin:10px 0 20px;
 }
 
+h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
 /* --- MENU with HORIZONTAL BAR ENDS HERE --- */
 
 .menu_items_container {
@@ -102,37 +107,37 @@ ul {
 .superslices_menu_section {
     color: black;
     width: 24%;
-    margin: 0 14px;
+    margin: 10px 14px;
 }
 
 .appetizers_menu_section {
     color: black;
     width: 24%;
-    margin: 0 14px;
+    margin: 10px 14px;
 }
 
 .salads_menu_section {
     color: black;
     width: 24%;
-    margin: 0 14px;
+    margin: 10px 14px;
 }
 
 .desserts_menu_section {
     color: black;
     width: 24%;
-    margin: 0 14px;
+    margin: 10px 14px;
 }
 
 .pasta_entrees_menu_section {
     color: black;
     width: 24%;
-    margin: 0 14px;
+    margin: 10px 14px;
 }
 
 .wedges_menu_section {
     color: black;
     width: 24%;
-    margin: 0 14px;
+    margin: 10px 14px;
 }
 
 
