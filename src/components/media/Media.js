@@ -35,7 +35,7 @@ const Media = () => {
                     playing={false}
                     width="481px"
                     height="256px"
-                    style={{display: "flex", float: "right"}}
+                    style={{display: "flex", float: "right", marginLeft:"-2.7%"}}
                 >
                 </ReactPlayer>
                     <div className="media__container__copy" id="gallery">
@@ -60,7 +60,7 @@ const Media = () => {
                     playing={false}
                     width="320px"
                     height="170px"
-                    style={{display: "flex", float: "left"}}
+                    style={{marginBottom: "10.3px"}}
                 >
                 </ReactPlayer>
                 <ReactPlayer
@@ -68,7 +68,7 @@ const Media = () => {
                     playing={false}
                     width="320px"
                     height="170px"
-                    style={{display: "flex", float: "left"}}
+                    style={{marginBottom: "10.3px"}}
                 >
                 </ReactPlayer>
                 <ReactPlayer
@@ -76,7 +76,7 @@ const Media = () => {
                     playing={false}
                     width="320px"
                     height="170px"
-                    style={{display: "flex", float: "right"}}
+                    style={{marginBottom: "10.3px"}}
                 >
                 </ReactPlayer>
                     <div className="media__container__copy" id="gallery">
@@ -85,14 +85,14 @@ const Media = () => {
                         @PizzaBarnYonkers on Instagram &amp; Twitter
                 </div>
                 <div className="media__container__gallery">
-                    <img className="media__container__gallery__image" src={Gallery1} alt="Gallery1"></img>
-                    <img className="media__container__gallery__image" src={Gallery2} alt="Gallery2"></img>
-                    <img className="media__container__gallery__image" src={Gallery3} alt="Gallery3"></img>
-                    <img className="media__container__gallery__image" src={Gallery4} alt="Gallery4"></img>
-                    <img className="media__container__gallery__image" src={Gallery5} alt="Gallery5"></img>
-                    <img className="media__container__gallery__image" src={Gallery6} alt="Gallery6"></img>
-                    <img className="media__container__gallery__image" src={Gallery7} alt="Gallery7"></img>
-                    <img className="media__container__gallery__image" src={Gallery8} alt="Gallery8"></img>
+                    <img className="media__container__gallery__image column1 row1" src={Gallery1} alt="Gallery1"></img>
+                    <img className="media__container__gallery__image column2 row1" src={Gallery2} alt="Gallery2"></img>
+                    <img className="media__container__gallery__image column1 row2" src={Gallery3} alt="Gallery3"></img>
+                    <img className="media__container__gallery__image column2 row2" src={Gallery4} alt="Gallery4"></img>
+                    <img className="media__container__gallery__image column1 row3" src={Gallery5} alt="Gallery5"></img>
+                    <img className="media__container__gallery__image column2 row3" src={Gallery6} alt="Gallery6"></img>
+                    <img className="media__container__gallery__image column1 row4" src={Gallery7} alt="Gallery7"></img>
+                    <img className="media__container__gallery__image column2 row4" src={Gallery8} alt="Gallery8"></img>
                 </div>
             </div>
  
