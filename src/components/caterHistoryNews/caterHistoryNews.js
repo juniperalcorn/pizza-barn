@@ -33,10 +33,10 @@ class CaterHistoryNews extends Component {
                         </div>
                     </div>
 
-                    
+                    <div className='cHN-caterBlock-cater-title-mobile'>CATERING</div>
                     <div className='cHN-caterBlock-cater'>
                         <div className='cHN-caterBlock-cater-title'>CATERING</div>
-                            <div className='cHN-caterBlock-cater-title-mobile' id='caterTitle'>CATERING</div>
+                  
                         <div className='cHN-caterBlock-cater-info'>
                             <div className='cHN-caterBlock-cater-info-item' id='cater1'>Meatball Parmesan</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater2'>Eggplant Parm Party</div> 
