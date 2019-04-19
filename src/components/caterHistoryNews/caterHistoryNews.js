@@ -43,27 +43,27 @@ class CaterHistoryNews extends Component {
                             <div className='cHN-caterBlock-cater-info-item' id='cater3'>Rolled Eggplant Parm</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater4'>Sausage, Peppers &amp; Onions</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater5'>Chicken Cutlet Parmesan</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater6'>Chicken Marsala<br/> (w mushrooms)</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater7'>Chicken Francese<br/> (lemon butter)</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater6'>Chicken Marsala<br className='mobileBreak'/> (w mushrooms)</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater7'>Chicken Francese<br className='mobileBreak'/> (lemon butter)</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater8'>Fresh Garden Salad</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater9'>Our Famous Penne Alla Vodka</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater10'>Homestyle Baked Ziti</div>
                             <div className='cHN-caterBlock-cater-info-item' id='cater11'>Italian 6’ wedge with the works</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater12'>American 6’ wedge with the <br/>works</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater12'>American 6’ wedge with the <br className='mobileBreak'/>works</div>
                         </div> 
 
 
                         <div className='cHN-caterBlock-cater-prices'>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price1'>Full $85.00 /<br/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price2'>Full $85.00 /<br/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price3'>Full $85.00 /<br/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price4'>Full $85.00 /<br/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price5'>Full $85.00 /<br/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price6'>Full $90.00 /<br/> Half $70.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price7'>Full $90.00 /<br/> Half $70.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price8'>Full $55.00 /<br/> Half $45.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price9'>Full $75.00 /<br/> Half $55.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'id='price10'>Full $75.00 /<br/> Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price1'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price2'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price3'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price4'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price5'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price6'>Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price7'>Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price8'>Full $55.00 /<br className='mobileBreak'/> Half $45.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price9'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'id='price10'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
                             <div className='cHN-caterBlock-cater-prices-item' id='price11'>$120.00</div>
                             <div className='cHN-caterBlock-cater-prices-item' id='price12'>$110.00</div>
                         </div> 
