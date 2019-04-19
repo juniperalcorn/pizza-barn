@@ -4,7 +4,7 @@ import './Menu.css';
 export default class Menu extends Component {
   render() {
     return (
-        <div className='menu_main_container'>
+        <div className='menu_main_container' id='menu'>
             <div className='menu_headline_section'>
                 <h1><span>MENU</span></h1>
             </div>

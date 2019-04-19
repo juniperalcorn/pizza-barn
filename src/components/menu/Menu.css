@@ -1,10 +1,11 @@
 .menu_main_container {
     display: flex;
     flex-direction: column;
-    width: 1440px;
-    height: 731px;
+    width: 1444px;
+    height: 650px;
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 8px;
+    padding: 8px;
     
 }
 .menu_headline_section {
@@ -13,7 +14,9 @@
     width: 100%;
     margin: 50px 0;
 }
+
 /* --- MENU with HORIZONTAL BAR BEHIND IT --- */
+
 h1 { 
     width:100%; 
     text-align:center; 
@@ -37,13 +40,16 @@ h1.menu_headline_section {
     line-height:0.1em; 
     margin:10px 0 20px;
 }
+
 /* --- MENU with HORIZONTAL BAR ENDS HERE --- */
 
-
 .menu_items_container {
-    width: 100%;
-    padding-left: 134px;
-    height: 717px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1444px;
+    /* padding-left: 134px; */
+    height: 100%;
     font-style: normal;
 }
 
@@ -76,37 +82,42 @@ ul {
     flex: 0 0 4em;
   }
 
-
-/* --- ITEMS with PRICES on SAME LINE SPACED APART --- */
+/* --- ITEMS with PRICES on SAME LINE SPACED APART ENDS HERE --- */
 
 .superslices_menu_section {
     color: black;
-    width: 40%;
+    width: 24%;
+    margin: 0 14px;
 }
 
 .appetizers_menu_section {
     color: black;
-    width: 40%;
+    width: 24%;
+    margin: 0 14px;
 }
 
 .salads_menu_section {
     color: black;
-    width: 40%;
+    width: 24%;
+    margin: 0 14px;
 }
 
 .desserts_menu_section {
     color: black;
-    width: 40%;
+    width: 24%;
+    margin: 0 14px;
 }
 
 .pasta_entrees_menu_section {
     color: black;
-    width: 40%;
+    width: 24%;
+    margin: 0 14px;
 }
 
 .wedges_menu_section {
     color: black;
-    width: 40%;
+    width: 24%;
+    margin: 0 14px;
 }
 
 

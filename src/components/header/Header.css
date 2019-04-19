@@ -20,14 +20,14 @@
 } 
   
   .header-page {
-    width: 100%;
+    width: 1456px;
     display: flex;
     flex-wrap: wrap;
     color: white;
   }
 
  .header {
-    width: 1444px;
+    width: 1456px;
     height: 488px;
     flex-direction: column;
     float: left;
@@ -36,7 +36,7 @@
   .footer {
       display: flex;
       align-items: center;
-      width: 1444px;
+      width: 1456px;
       height: 156px;
       flex-direction: row;
       background-color: black;
@@ -46,7 +46,7 @@
 
   .backImage {
     position: absolute;
-    width: 1444px;
+    width: 1456px;
     z-index: -1;
   }
 
