@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Collapsible from 'react-collapsible';
 import './caterHistoryNews.css'
 import personalized from '../../assets/desktop_personalizedpizza.png'
 import bigLine from '../../assets/desktop_timeline.png'
@@ -13,11 +14,20 @@ import travel from '../../assets/images/Logos/Travel_Channel_logo-black.png'
 import mobileAbout from '../../assets/images/mobile-pics/Mobile_AboutUs_480.png'
 import mobileLine from '../../assets/images/mobile-pics/Mobile_Timeline.png'
 
+
 class CaterHistoryNews extends Component {
     constructor(props){
         super(props)
-        this.state={}
+        this.state={
+            menuCondition: false,
+        }
+        this.caterDisplay=this.caterDisplay.bind(this)
     }
+
+caterDisplay(){
+    this.setState({menuCondition: !this.state.menuCondition})
+}
+
     render(){
         return(
             <div className='cHN-contain'>
@@ -33,41 +43,76 @@ class CaterHistoryNews extends Component {
                         </div>
                     </div>
 
-                    <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
+
+                    <button className='collapsible' onClick={this.caterDisplay}>CATERING MENU</button>
+                    <div className={this.state.menuCondition ? 'caterBlock-Mobile' : 'hide'}>
+                        <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
+
+
+                        <div className='gridContain'>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater1'>Meatball Parmesan</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater2'>Eggplant Parm Party</div> 
+                                <div className='cHN-caterBlock-cater-info-item' id='cater3'>Rolled Eggplant Parm</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater4'>Sausage, Peppers &amp; Onions</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater5'>Chicken Cutlet Parmesan</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater6'>Chicken Marsala<br className='mobileBreak'/> (w mushrooms)</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater7'>Chicken Francese<br className='mobileBreak'/> (lemon butter)</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater8'>Fresh Garden Salad</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater9'>Our Famous Penne Alla Vodka</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater10'>Homestyle Baked Ziti</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater11'>Italian 6’ wedge with the works</div>
+                                <div className='cHN-caterBlock-cater-info-item' id='cater12'>American 6’ wedge with the <br className='mobileBreak'/>works</div>
+                         
+                                <div className='cHN-caterBlock-cater-prices-item' id='price1'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price2'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price3'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price4'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price5'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price6'>Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price7'>Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price8'>Full $55.00 /<br className='mobileBreak'/> Half $45.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price9'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item'id='price10'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price11'>$120.00</div>
+                                <div className='cHN-caterBlock-cater-prices-item' id='price12'>$110.00</div>
+                           
+
+                            </div>
+                        </div>
+                    
+
                     <div className='cHN-caterBlock-cater'>
-                    {/* <input id='collapsible' class='toggle' type='checkbox'/>
-                    <label for='collapsible' class='lbl-toggle'>CATERING MENU</label> */}
                         <div className='cHN-caterBlock-cater-title'>CATERING</div>
                   
                         <div className='cHN-caterBlock-cater-info'>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater1'>Meatball Parmesan</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater2'>Eggplant Parm Party</div> 
-                            <div className='cHN-caterBlock-cater-info-item' id='cater3'>Rolled Eggplant Parm</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater4'>Sausage, Peppers &amp; Onions</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater5'>Chicken Cutlet Parmesan</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater6'>Chicken Marsala<br className='mobileBreak'/> (w mushrooms)</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater7'>Chicken Francese<br className='mobileBreak'/> (lemon butter)</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater8'>Fresh Garden Salad</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater9'>Our Famous Penne Alla Vodka</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater10'>Homestyle Baked Ziti</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater11'>Italian 6’ wedge with the works</div>
-                            <div className='cHN-caterBlock-cater-info-item' id='cater12'>American 6’ wedge with the <br className='mobileBreak'/>works</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Meatball Parmesan</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Eggplant Parm Party</div> 
+                            <div className='cHN-caterBlock-cater-info-item' >Rolled Eggplant Parm</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Sausage, Peppers &amp; Onions</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Chicken Cutlet Parmesan</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Chicken Marsala<br className='mobileBreak'/> (w mushrooms)</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Chicken Francese<br className='mobileBreak'/> (lemon butter)</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Fresh Garden Salad</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Our Famous Penne Alla Vodka</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Homestyle Baked Ziti</div>
+                            <div className='cHN-caterBlock-cater-info-item' >Italian 6’ wedge with the works</div>
+                            <div className='cHN-caterBlock-cater-info-item' >American 6’ wedge with the <br className='mobileBreak'/>works</div>
                         </div> 
 
 
                         <div className='cHN-caterBlock-cater-prices'>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price1'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price2'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price3'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price4'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price5'>Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price6'>Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price7'>Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price8'>Full $55.00 /<br className='mobileBreak'/> Half $45.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price9'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'id='price10'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price11'>$120.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item' id='price12'>$110.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $85.00 /<br className='mobileBreak'/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $90.00 /<br className='mobileBreak'/> Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $55.00 /<br className='mobileBreak'/> Half $45.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'>Full $75.00 /<br className='mobileBreak'/> Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >$120.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' >$110.00</div>
                         </div> 
                     </div>
                 </div>
@@ -106,7 +151,7 @@ class CaterHistoryNews extends Component {
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodnetwork.com/videos/pizza-barns-super-slice-0297077'><img id='travel' src={travel}></img></a></div>
                     </div>
                 </div>
-
+{console.log(this.state.menu)}
 
             </div>
         )
