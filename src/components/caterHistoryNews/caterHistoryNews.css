@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* CATERING */
+.mobileBreak{
+    display: none;
+}
 .cHN-caterBlock-personalize{
     display: flex;
     flex-direction: row;
@@ -264,6 +267,9 @@
 
 @media screen and (max-width: 480px) and (min-width: 320px){
  /* CATERING */
+ .mobileBreak{
+     display: block;
+ }
  .cHN-contain{
      background-color: #FBFBFB;
  }
