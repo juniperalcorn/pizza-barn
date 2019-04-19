@@ -35,6 +35,8 @@ class CaterHistoryNews extends Component {
 
                     <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
                     <div className='cHN-caterBlock-cater'>
+                    {/* <input id='collapsible' class='toggle' type='checkbox'/>
+                    <label for='collapsible' class='lbl-toggle'>CATERING MENU</label> */}
                         <div className='cHN-caterBlock-cater-title'>CATERING</div>
                   
                         <div className='cHN-caterBlock-cater-info'>
@@ -96,12 +98,12 @@ class CaterHistoryNews extends Component {
                 <hr className='line'></hr>
                     <div className='cHN-newsBlock-header'>PEOPLE LOVE PIZZA BARN!</div>
                     <div className='cHN-newsBlock-linkContain'>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='foodNet' src={foodNet}></img></a></div>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='buzzfeed' src={buzzfeed}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodnetwork.com/restaurants/ny/yonkers/pizza-barn-restaurant'><img id='foodNet' src={foodNet}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.buzzfeed.com/bfmp/videos/19141'><img id='buzzfeed' src={buzzfeed}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='http://time.com/4687790/weirdest-pizzas/'><img id='timeMag' src={timeMag}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.thrillist.com/news/nation/pizza-barn-yonkers-super-slice'><img id='thrillist' src={thrillist}></img></a></div>
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodbeast.com/news/super-slice-pizza-barn/'><img id='foodbeast' src={foodbeast}></img></a></div>
-                        <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='travel' src={travel}></img></a></div>
+                        <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodnetwork.com/videos/pizza-barns-super-slice-0297077'><img id='travel' src={travel}></img></a></div>
                     </div>
                 </div>
 
