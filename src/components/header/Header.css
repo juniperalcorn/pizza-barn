@@ -18,6 +18,10 @@
     letter-spacing: normal;
     color: #fbfbfb;
 } 
+
+ .backImageMobile {
+   display: none;
+ }
   
   .header-page {
     width: 1456px;
@@ -130,3 +134,10 @@
   .not-bold{
     font-weight: normal;
   }
+
+  @media screen and (max-width: 480px) and (min-width: 320px) {
+    .backImage {
+        display: none;
+       }
+     
+    }
