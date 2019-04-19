@@ -6,7 +6,7 @@ export default class Menu extends Component {
     return (
         <div className='menu_main_container' id='menu'>
             <div className='menu_headline_section'>
-                <h1><span>MENU</span></h1>
+                <h1 className='menu_headline_sec_title'><span className='menu_text_space'>MENU</span></h1>
             </div>
         
             <div className='menu_items_container'>

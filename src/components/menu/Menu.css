@@ -20,7 +20,7 @@
 
 /* --- MENU with HORIZONTAL BAR BEHIND IT --- */
 
-h1 { 
+h1.menu_headline_sec_title { 
     width:100%; 
     text-align:center; 
     border-bottom: 1px solid red; 
@@ -31,7 +31,7 @@ h1 {
     font-size: 40px;
 } 
 
-h1 span { 
+.menu_text_space { 
     background:#fff; 
     padding:0 10px; 
 }
@@ -43,11 +43,6 @@ h1.menu_headline_section {
     bottom: 1px solid #000; 
     line-height:0.1em; 
     margin:10px 0 20px;
-}
-
-h2 {
-    font-size: 16px;
-    line-height: 23px;
 }
 
 /* --- MENU with HORIZONTAL BAR ENDS HERE --- */
@@ -66,6 +61,8 @@ h2.menu_category_titles {
     color: black;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
+    font-size: 16px;
+    line-height: 23px;
 }
 
 /* --- ITEMS with PRICES on SAME LINE SPACED APART --- */
