@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
 .menu_main_container {
     display: flex;
     flex-direction: column;
@@ -87,6 +90,11 @@ ul {
   i {
       font-style: normal;
       font-family: 'Open Sans', sans-serif;
+  }
+
+  .fine_print {
+        font-family: 'Open Sans', sans-serif;  
+        font-weight: 300;
   }
 
 /* --- ITEMS with PRICES on SAME LINE SPACED APART ENDS HERE --- */

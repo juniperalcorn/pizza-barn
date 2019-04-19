@@ -19,75 +19,83 @@ export default class Menu extends Component {
                     </li>
                     <li className="list">
                         <i className='item'>Stuffed Crust</i>
-                        <i className="price"> $18.00</i> 
+                        <i className="price">$18.00</i> 
                     </li>
                     <li className="list">
-                        <i className='item'>1 Regular Topping<br />Pepperoni, Sausage, Meatball</i>    
-                        <i className="price"> $18.00</i> 
+                        <i className='item'>1 Regular Topping</i>    
+                        <i className="price">$18.00</i> 
                     </li>
                     <li className="list">
-                        <i className='item'>1 Premium Topping<br />Bacon, Chicken, X-Cheese</i>
-                        <i className="price"> $22.00</i> 
+                        <i className='item fine_print'>Pepperoni, Sausage, Meatball</i>    
+                        <i className="price"></i> 
+                    </li>
+                    <li className="list">
+                        <i className='item'>1 Premium Topping</i>
+                        <i className="price">$22.00</i> 
+                    </li>
+                    <li className="list">
+                        <i className='item'>Bacon, Chicken, X-Cheese</i>
+                        <i className="price"></i> 
                     </li>
                     <li className="list">
                         <i className='item'>Salad</i>
-                        <i className="price"> $22.00</i> 
+                        <i className="price">$22.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>White</i>
-                        <i className="price"> $24.00</i> 
+                        <i className="price">$24.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Margherita</i>
-                        <i className="price"> $25.00</i>                         
+                        <i className="price">$25.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Hawaiian</i>
-                        <i className="price"> $26.00</i>                         
+                        <i className="price">$26.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>BBQ or Buffalo Chicken</i>
-                        <i className="price"> $26.00</i>                         
+                        <i className="price">$26.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>White Broccoli or White Spinach</i>
-                        <i className="price"> $26.00</i>                         
+                        <i className="price">$26.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>The Prota (Corn &amp; Ham)</i>
-                        <i className="price"> $28.00</i>                         
+                        <i className="price">$28.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Bacon, Chicken &amp; Ranch</i>
-                        <i className="price"> $30.00</i>                         
+                        <i className="price">$30.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Supreme or Vegetarian</i>
-                        <i className="price"> $30.00</i>                         
+                        <i className="price">$30.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Cheeseburger &amp; Fries</i>
-                        <i className="price"> $30.00</i>                         
+                        <i className="price">$30.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Penne ala Vodka</i>
-                        <i className="price"> $30.00</i>                         
+                        <i className="price">$30.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Mac-N-Cheese</i>
-                        <i className="price"> $35.00</i>                         
+                        <i className="price">$35.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Lasagna</i>
-                        <i className="price"> $35.00</i>                         
+                        <i className="price">$35.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>*New* The Barn Yard: Mozzarella sticks, chicken fingers, bacon, french fries layered with mozzarella and American cheese</i>
-                        <i className="price"> $35.00</i>                         
+                        <i className="price">$35.00</i>                         
                     </li>
                     <li className="list">
                         <i className='item'>Mac-N-Cheese</i>
-                        <i className="price"> $35.00</i>                         
+                        <i className="price">$35.00</i>                         
                     </li>
                     </ul>
                 </div>
@@ -101,39 +109,39 @@ export default class Menu extends Component {
                     </li>
                     <li className="list">
                         <i className='item'>BBQ Wings</i>
-                        <i className="price"> $8.00</i> 
+                        <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Plain Wings</i>
-                        <i className="price"> $8.00</i> 
+                        <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Mozzarella sticks</i>
-                        <i className="price"> $8.00</i> 
+                        <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Chicken fingers</i>
-                        <i className="price"> $8.00</i> 
+                        <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>French Fries</i>
-                        <i className="price"> $5.50</i> 
+                        <i className="price">$5.50</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Cheese Fries</i>
-                        <i className="price"> $8.00</i> 
+                        <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Garlic Bread</i>
-                        <i className="price"> $8.00</i> 
+                        <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Chicken Roll</i>
-                        <i className="price"> $8.50</i> 
+                        <i className="price">$8.50</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Cheese Pretzel</i>
-                        <i className="price"> $8.50</i> 
+                        <i className="price">$8.50</i> 
                     </li>
                     </ul>
                 </div>
@@ -146,16 +154,16 @@ export default class Menu extends Component {
                         <i className="price">$8.00</i> 
                     </li>
                     <li className="list">
-                        <i className='item'>...w Grilled Chicken</i>
-                        <i className="price"> $12.00</i> 
+                        <i className='item'><span className='fine_print'>w Grilled Chicken</span></i>
+                        <i className="price">$12.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Caesar Salad</i>
-                        <i className="price"> $8.50</i> 
+                        <i className="price">$8.50</i> 
                     </li>
                     <li className="list">
-                        <i className='item'>...w Grilled Chicken</i>
-                        <i className="price"> $12.00</i> 
+                        <i className='item'><span className='fine_print'>w Grilled Chicken</span></i>
+                        <i className="price">$12.00</i> 
                     </li>
                     </ul>
                 </div>
@@ -164,11 +172,17 @@ export default class Menu extends Component {
                     <ul>
                     <li className="list">
                         <i className='item'>XL Sicilian Cannoli</i>
-                        <i className="price">$4.50</i> 
+                        <i className="price">$4.50</i>
+                         
                     </li>
                     <li className="list">
-                        <i className='item'>Tiramisu (filled in-house)</i>
-                        <i className="price"> $5.50</i> 
+                        <i className='item'>Filled In-House</i>
+                        <i className="price"></i>
+                         
+                    </li>
+                    <li className="list">
+                        <i className='item'>Tiramisu</i>
+                        <i className="price">$5.50</i> 
                     </li>                    
                     </ul>
                 </div>
@@ -181,19 +195,19 @@ export default class Menu extends Component {
                     </li>
                     <li className="list">
                         <i className='item'>Penne ala Vodka</i>
-                        <i className="price"> $15.00</i> 
+                        <i className="price">$15.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Mac-N-Cheese &amp; BBQ Chicken</i>
-                        <i className="price"> $17.00</i> 
+                        <i className="price">$17.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Manicotti</i>
-                        <i className="price"> $16.00</i> 
+                        <i className="price">$16.00</i> 
                     </li>
                     <li className="list">
                         <i className='item'>Rolled Eggplant Parmesan</i>
-                        <i className="price"> $17.00</i> 
+                        <i className="price">$17.00</i> 
                     </li>
                     </ul>
                 </div>
@@ -206,15 +220,15 @@ export default class Menu extends Component {
                         </li>
                         <li className="list">
                             <i className='item'>Chicken Parm</i>
-                            <i className="price"> $12.00</i> 
+                            <i className="price">$12.00</i> 
                         </li>
                         <li className="list">
                             <i className='item'>Eggplant Parm</i>
-                            <i className="price"> $13.00</i> 
+                            <i className="price">$13.00</i> 
                         </li>
                         <li className="list">
                             <i className='item'>Grilled Chicken</i>
-                            <i className="price"> $13.00</i> 
+                            <i className="price">$13.00</i> 
                         </li>
                     </ul>
                 </div>
