@@ -10,7 +10,9 @@ import thrillist from '../../assets/images/Logos/THRILLIST.png'
 import foodbeast from '../../assets/images/Logos/foodbeast.png'
 import travel from '../../assets/images/Logos/Travel_Channel_logo-black.png'
 
-//food network>buzzfeed>time>thrillist>foodbeast>travel
+import mobileAbout from '../../assets/images/mobile-pics/Mobile_AboutUs.png'
+import mobileLine from '../../assets/images/mobile-pics/Mobile_Timeline.png'
+
 class CaterHistoryNews extends Component {
     constructor(props){
         super(props)
@@ -31,40 +33,45 @@ class CaterHistoryNews extends Component {
                         </div>
                     </div>
 
+                    <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
                     <div className='cHN-caterBlock-cater'>
-                        <div className='cHN-caterBlock-cater-title'> CATERING</div>
+                        <div className='cHN-caterBlock-cater-title'>CATERING</div>
+                  
                         <div className='cHN-caterBlock-cater-info'>
-                            <div className='cHN-caterBlock-cater-info-item'>Meatball Parmesan</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Eggplant Parm Party</div> 
-                            <div className='cHN-caterBlock-cater-info-item'>Rolled Eggplant Parm</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Sausage, Peppers &amp; Onions</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Chicken Cutlet Parmesan</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Chicken Marsala (w mushrooms)</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Chicken Francese (lemon butter)</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Fresh Garden Salad</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Our Famous Penne Alla Vodka</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Homestyle Baked Ziti</div>
-                            <div className='cHN-caterBlock-cater-info-item'>Italian 6’ wedge with the works</div>
-                            <div className='cHN-caterBlock-cater-info-item'>American 6’ wedge with the works</div>
-                        </div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater1'>Meatball Parmesan</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater2'>Eggplant Parm Party</div> 
+                            <div className='cHN-caterBlock-cater-info-item' id='cater3'>Rolled Eggplant Parm</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater4'>Sausage, Peppers &amp; Onions</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater5'>Chicken Cutlet Parmesan</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater6'>Chicken Marsala<br/> (w mushrooms)</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater7'>Chicken Francese<br/> (lemon butter)</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater8'>Fresh Garden Salad</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater9'>Our Famous Penne Alla Vodka</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater10'>Homestyle Baked Ziti</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater11'>Italian 6’ wedge with the works</div>
+                            <div className='cHN-caterBlock-cater-info-item' id='cater12'>American 6’ wedge with the <br/>works</div>
+                        </div> 
+
+
                         <div className='cHN-caterBlock-cater-prices'>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $85.00 / Half $65.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $90.00 / Half $70.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $90.00 / Half $70.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $55.00 / Half $45.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $75.00 / Half $55.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>Full $75.00 / Half $55.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>$120.00</div>
-                            <div className='cHN-caterBlock-cater-prices-item'>$110.00</div>
-                        </div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price1'>Full $85.00 /<br/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price2'>Full $85.00 /<br/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price3'>Full $85.00 /<br/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price4'>Full $85.00 /<br/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price5'>Full $85.00 /<br/> Half $65.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price6'>Full $90.00 /<br/> Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price7'>Full $90.00 /<br/> Half $70.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price8'>Full $55.00 /<br/> Half $45.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price9'>Full $75.00 /<br/> Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item'id='price10'>Full $75.00 /<br/> Half $55.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price11'>$120.00</div>
+                            <div className='cHN-caterBlock-cater-prices-item' id='price12'>$110.00</div>
+                        </div> 
                     </div>
                 </div>
 
-                <div className='cHN-historyBlock' id="about">
+                <div className='cHN-historyBlock' id='about'>
+                    <div className='cHN-historyBlock-mobileImg'><img id='mobileAboutImage' src={mobileAbout}/></div>
                     <div className='cHN-historyBlock-header'>YONKER’S BEST PIZZA SINCE 1975</div>
 
                     <div className='cHN-historyBlock-lineContain'>
@@ -74,6 +81,7 @@ class CaterHistoryNews extends Component {
                             <div id='cHN-historyBlock-lineContain-years-3'>Now</div>
                         </div>
                         <div className='cHN-historyBlock-lineContain-line'><img id='bigLine' src={bigLine}/></div>
+                        <div className='cHN-historyBlock-lineContain-line-mobile'><img id='mobileLine' src={mobileLine}/></div>
                         <div className='cHN-historyBlock-lineContain-info'>
                             <div className='cHN-historyBlock-lineContain-info-1'>Pizza Barn opened its doors on the corner of McLean and Van Cortlandt Park Avenue in the beautiful city of Yonkers, NY. It was one of the few pizzerias, if not the very first, to offer delivery service in the city!</div>
                             <div className='cHN-historyBlock-lineContain-info-2'>Pizza Barn unveiled its Super Slice, a 2 foot slice that instantly became an internet sensation, attracting fans from around the globe to attempt to eat the "ginormous" slice. What many people hadn't expected was to find an amazing "slice" of pizza that was more than just a "gimmick".</div>
@@ -85,6 +93,7 @@ class CaterHistoryNews extends Component {
                 </div>
 
                 <div className='cHN-newsBlock' id="press">
+                <hr className='line'></hr>
                     <div className='cHN-newsBlock-header'>PEOPLE LOVE PIZZA BARN!</div>
                     <div className='cHN-newsBlock-linkContain'>
                         <div className='cHN-newsBlock-linkContain-link'><a href='#'><img id='foodNet' src={foodNet}></img></a></div>
