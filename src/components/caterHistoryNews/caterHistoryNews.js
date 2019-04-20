@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import Collapsible from 'react-collapsible';
 import './caterHistoryNews.css'
 import personalized from '../../assets/desktop_personalizedpizza.png'
 import bigLine from '../../assets/desktop_timeline.png'
