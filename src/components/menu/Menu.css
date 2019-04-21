@@ -8,8 +8,8 @@
     width: 1444px;
     height: 731px;
     background-color: #ffffff;
-    margin: 20px;
-    padding: 8px;
+    /* margin: 20px; */
+    /* padding: 8px; */
     
 }
 .menu_headline_section {
@@ -123,7 +123,14 @@ i {
     width: 24%;
     margin: 10px 14px;
 }
-
+@media screen and (min-width: 481px) {
+    .menu_main_container {
+        display: block;
+    }
+    .collapsible_container {
+        display: none;
+    }
+}
 /* --- MEDIA QUERIES STARTS HERE --- */
 @media screen and (max-width: 480px) and (min-width: 320px) {
     body {
@@ -136,14 +143,14 @@ i {
         width: 480px;
         height: 100%;
         background-color: #fbfbfb;
-        margin: 20px;
-        padding: 8px;
+        margin: 0px;
+        padding: 0px;
     }
     .menu_headline_section {
         display: none;
     }
     .menu_items_container {
-        display: flex;
+        display: none;
         flex-direction: column;
         flex-flow: column wrap;
         height: 100%;
@@ -199,7 +206,79 @@ i {
         width: 358px;
         margin: 10px 14px;
     }
-
+/* --- COLLAPSIBLE STYLES --- */
+.wrap-collapsible {
+    margin-bottom: 1.2rem 0;
+  }
+  
+  input[type='checkbox'] {
+    display: none;
+  }
+  
+  .lbl-toggle {
+    display: block;
+  
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 1rem;
+  
+    color: white;
+    background: rgba(0, 0, 0, .9);
+  
+    cursor: pointer;
+  
+    border-radius: 0px;
+    transition: all 0.25s ease-out;
+  }
+  
+  .lbl-toggle:hover {
+    color: white;
+  }
+  
+  .lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+  
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+  
+    transition: transform .2s ease-out;
+  }
+  
+  .toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  
+  .collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 350px;
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .collapsible-content .content-inner {
+    background: #fbfbfb;
+    border-bottom: 1px solid rgba(250, 224, 66, .45);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: .5rem 1rem;
+  }
 
 
 }
