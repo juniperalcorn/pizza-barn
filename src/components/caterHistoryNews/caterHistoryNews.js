@@ -46,7 +46,7 @@ caterDisplay(){
                     {/* <button className='collapsible' onClick={this.caterDisplay}>CATERING MENU <i className="fas fa-chevron-up"></i></button> */}
                     {/* <div className={this.state.menuCondition ? 'caterBlock-Mobile' : 'hide'}>  */}
                         
-                    <div className='wrap-collapsible'>
+                    <div className='wrap-collapsible-Cater'>
                         <input id="collapsibleCater" className="toggle" type="checkbox"/>
                         <label for="collapsibleCater" className="lbl-toggle">CATERING MENU</label>
                         <div className='collapsible-content'>
