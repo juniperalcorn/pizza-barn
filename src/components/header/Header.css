@@ -22,6 +22,10 @@
  .backImageMobile {
    display: none;
  }
+
+ .footerMobile {
+   display: none;
+ }
   
   .header-page {
     width: 1456px;
@@ -144,6 +148,10 @@
       display: none;
     }   
 
+    .footer {
+      display:none;
+    }
+
     .header-page {
       width: 480px;
       height: 352px;
@@ -162,7 +170,7 @@
       height: 142px;
     }
 
-    .footer {
+    .footerMobile {
       display: flex;
       /* align-items: left; */
       width: 480px;
@@ -175,7 +183,7 @@
       /* justify-content: space-evenly; */
       }
 
-    .address {
+    .addressMobile {
       width: 30%;
       height: 90px;
       font-family: 'Open Sans', sans-serif;
@@ -193,7 +201,7 @@
       /* margin-top: -2.8%; */
     }
   
-    .hours {
+    .hoursMobile {
       height: 90px;
       width: 30%;
       top: 11px;
@@ -210,12 +218,12 @@
       color: black;
     }
   
-    .text {
-      width: 30%;
+    .textMobile {
+      width: 50%;
       display: flex;
-      align-self: flex-end;
+      /* align-self: flex-end;
       left: 22px;
-      top: 11px;
+      top: 2px; */
       bottom: 10px;
       /* right: 134px;
       left: 747px; */
@@ -227,6 +235,15 @@
       /* line-height: 1.18; */
       letter-spacing: normal;
       color: black;
+      padding-left: 50px;
+    }
+
+    .fuckingDiv {
+      padding-top: 20px;
+      display: flex;
+      width: 100%;
+      height: 70px;
+      padding-left: 50px;
     }
   
      
