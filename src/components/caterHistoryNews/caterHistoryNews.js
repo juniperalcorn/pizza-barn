@@ -43,12 +43,17 @@ caterDisplay(){
                     </div>
 
 
-                    <button className='collapsible' onClick={this.caterDisplay}>CATERING MENU</button>
-                    <div className={this.state.menuCondition ? 'caterBlock-Mobile' : 'hide'}>
-                        <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
+                    {/* <button className='collapsible' onClick={this.caterDisplay}>CATERING MENU <i className="fas fa-chevron-up"></i></button> */}
+                    {/* <div className={this.state.menuCondition ? 'caterBlock-Mobile' : 'hide'}>  */}
+                        
+                    <div className='wrap-collapsible'>
+                        <input id="collapsibleCater" className="toggle" type="checkbox"/>
+                        <label for="collapsibleCater" className="lbl-toggle">CATERING MENU</label>
+                        <div className='collapsible-content'>
+                            <div className='cHN-caterBlock-cater-title-mobile'>CATERING MENU</div>
 
 
-                        <div className='gridContain'>
+                            <div className='gridContain'>
                                 <div className='cHN-caterBlock-cater-info-item' id='cater1'>Meatball Parmesan</div>
                                 <div className='cHN-caterBlock-cater-info-item' id='cater2'>Eggplant Parm Party</div> 
                                 <div className='cHN-caterBlock-cater-info-item' id='cater3'>Rolled Eggplant Parm</div>
@@ -76,8 +81,10 @@ caterDisplay(){
                                 <div className='cHN-caterBlock-cater-prices-item' id='price12'>$110.00</div>
                            
 
-                            </div>
+                             </div>
                         </div>
+                    </div>
+                        {/* </div> */}
                     
 
                     <div className='cHN-caterBlock-cater'>
