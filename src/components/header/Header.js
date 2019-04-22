@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import './Header.css'
 import slicePizzaBack from '../../assets/images/mobile-pics/desktop_pizzabarnheader.png'
+import slicePizzaBackMobile from '../../assets/images/heroMobile480.png'
+
 
 export default class Header extends Component {
   render() {
     return (
         <div className='header-page'>
         <img className="backImage"src={slicePizzaBack}/>
+        <img className="backImageMobile"src={slicePizzaBackMobile }/>
           <div className='header'>
           <div className='links'>
             <a className='home' href="#menu">MENU</a>
