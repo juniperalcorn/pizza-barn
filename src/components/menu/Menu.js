@@ -322,12 +322,8 @@ export default class Menu extends Component {
                                     </li>
                                     <li className="list">
                                         <i className='item'>*New* The Barn Yard: Mozzarella sticks, chicken fingers, bacon, french fries layered with mozzarella and American cheese</i>
-                                        <i className="price">$35.00</i>                         
-                                    </li>
-                                    <li className="list">
-                                        <i className='item'>Mac-N-Cheese</i>
-                                        <i className="price">$35.00</i>                         
-                                    </li>
+                                        <i className="price">$40.00</i>                         
+                                    </li>                                    
                                 </ul>
                             </div>
                         </div>
