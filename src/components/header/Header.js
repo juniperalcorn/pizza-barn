@@ -75,23 +75,30 @@ export default class Header extends Component {
 
             </div>
 
-            <div className='hoursMobile'>
+            <div className='daysMobile'>
 
               <p>HOURS
-        <br />
-                Mon-Sat   11AM-10PM
-        <br />
-                Sunday   Closed
-      </p>
+              <br />
+                Mon-Sat 
+              <br />
+                Sunday
+              </p>
+              </div>
+              <div className='hoursMobile'>
+              <p><span className="white">HOURS</span>
+              <br />
+             11AM-10PM
+                <br />
+             Closed
+              </p>
+              </div>
             </div>
-          </div>
-
           <div className='textMobile'>
 
             <p>
-              Phone orders to-go only and will be suspended <span className="not-bold">when a line forms<br />
+              Phone orders to-go only and will be <br /> suspended <span className="not-bold">when a line forms
                 outside the restaurant.</span><br />
-              In-house seats are reserved for our dining-in patrons only <span className="not-bold">and <br />
+              In-house seats are reserved for our dining-<br />in patrons only <span className="not-bold">and
                 patrons will be seated on a first serve basis.</span>
             </p>
           </div>
