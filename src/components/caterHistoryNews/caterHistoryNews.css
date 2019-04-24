@@ -301,20 +301,14 @@
   
   .lbl-toggle {
     display: block;
-  
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* text-align: left; */
-  
     padding: 1rem;
-  
     color: white;
     background: rgba(0, 0, 0, .9);
-  
     cursor: pointer;
-  
     border-radius: 0px;
     transition: all 0.25s ease-out;
   }
@@ -524,7 +518,6 @@
     margin-left: -20px;
 }
  .cHN-caterBlock-cater-info-item{
-     /* display: grid; */
      width: 174px;
      font-family: 'Open Sans', sans-serif;
      font-size: 12px;
@@ -539,7 +532,6 @@
      margin-left: 22px;
  }
  .cHN-caterBlock-cater-prices-item{
-     /* display: grid; */
      width: 74px;
      font-family: 'Open Sans', sans-serif;
      font-size: 12px;
@@ -594,18 +586,15 @@
 
 .cHN-historyBlock-lineContain-years{
     width: 42px;
-    /* height: 24px; */
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color:#d53717;
-    /*text align */
     padding-left: 22px;
 }
 #cHN-historyBlock-lineContain-years-2{
     padding-top: 148px;
     padding-bottom: 173px;
-    /* margin-top: 20px; */
 }
 
 .cHN-historyBlock-lineContain-line{
@@ -628,8 +617,6 @@
     color: #000000;
     margin-left: 15px;
 }
-
-
 
 /* NEWS */
 .cHN-newsBlock{
