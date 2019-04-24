@@ -58,24 +58,24 @@ const Media = () => {
                 <ReactPlayer
                     url="https://youtu.be/pZvhmWtDvUw"
                     playing={false}
-                    width="320px"
-                    height="170px"
+                    width="480px"
+                    height="255px"
                     style={{marginBottom: "10.3px"}}
                 >
                 </ReactPlayer>
                 <ReactPlayer
                     url="https://youtu.be/Hzh_9iWumeE"
                     playing={false}
-                    width="320px"
-                    height="170px"
+                    width="480px"
+                    height="255px"
                     style={{marginBottom: "10.3px"}}
                 >
                 </ReactPlayer>
                 <ReactPlayer
                     url="https://youtu.be/abK6eKiX_Bc"
                     playing={false}
-                    width="320px"
-                    height="170px"
+                    width="480px"
+                    height="255px"
                     style={{marginBottom: "10.3px"}}
                 >
                 </ReactPlayer>
