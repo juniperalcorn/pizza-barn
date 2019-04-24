@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import './caterHistoryNews.css'
 import personalized from '../../assets/desktop_personalizedpizza.png'
 import bigLine from '../../assets/desktop_timeline.png'
-// import timeline from '../../assets/desktop_timelinephoto.png'
 import foodNet from '../../assets/images/Logos/foodnetwork_logo_black.png'
 import buzzfeed from '../../assets/images/Logos/buzzfeed-logo.png'
 import timeMag from '../../assets/images/Logos/TIMELOGO.png'
@@ -15,17 +14,6 @@ import mobileLine from '../../assets/images/mobile-pics/Mobile_Timeline.png'
 
 
 class CaterHistoryNews extends Component {
-    constructor(props){
-        super(props)
-        this.state={
-            menuCondition: false,
-        }
-        this.caterDisplay=this.caterDisplay.bind(this)
-    }
-
-caterDisplay(){
-    this.setState({menuCondition: !this.state.menuCondition})
-}
 
     render(){
         return(
@@ -41,11 +29,7 @@ caterDisplay(){
                             <div className='cHN-caterBlock-personalize-info-price'>Starting at $25.00</div>
                         </div>
                     </div>
-
-
-                    {/* <button className='collapsible' onClick={this.caterDisplay}>CATERING MENU <i className="fas fa-chevron-up"></i></button> */}
-                    {/* <div className={this.state.menuCondition ? 'caterBlock-Mobile' : 'hide'}>  */}
-                        
+ 
                     <div className='wrap-collapsible-Cater'>
                         <input id="collapsibleCater" className="toggle" type="checkbox"/>
                         <label for="collapsibleCater" className="lbl-toggle">CATERING MENU</label>
@@ -84,8 +68,6 @@ caterDisplay(){
                              </div>
                         </div>
                     </div>
-                        {/* </div> */}
-                    
 
                     <div className='cHN-caterBlock-cater'>
                         <div className='cHN-caterBlock-cater-title'>CATERING</div>
@@ -157,7 +139,6 @@ caterDisplay(){
                         <div className='cHN-newsBlock-linkContain-link'><a href='https://www.foodnetwork.com/videos/pizza-barns-super-slice-0297077'><img id='travel' src={travel}></img></a></div>
                     </div>
                 </div>
-{console.log(this.state.menu)}
 
             </div>
         )
