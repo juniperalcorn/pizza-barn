@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 
+/* --- PAGE CONTAINER --- */ 
 .menu_main_container {
     display: flex;
     flex-direction: column;
@@ -19,8 +20,7 @@
     margin: 43px 0 43px;
 }
 
-/* --- MENU HEADLINE with HORIZONTAL BAR BEHIND IT --- */
-
+/* --- MENU HEADLINE SEC with HORIZONTAL BAR BEHIND IT --- */
 h1.menu_headline_sec_title { 
     width:100%; 
     text-align:center; 
@@ -43,9 +43,7 @@ h1.menu_headline_section {
     line-height:0.1em; 
     margin:10px 0 20px;
 }
-
-/* --- MENU HEADLINE with HORIZONTAL BAR ENDS HERE --- */
-
+/* --- MENU FOOD LIST CONTAINER --- */
 .menu_items_container {
     display: flex;
     flex-direction: column;
@@ -61,9 +59,7 @@ h2.menu_category_titles {
     font-size: 16px;
     line-height: 23px;
 }
-
-/* --- ITEMS with PRICES on SAME LINE SPACED APART --- */
-
+/* --- LISTING STRUCTURE FOR FOOD ITEMS --- */
 ul {
     list-style-type: none;
     width: 100%;
@@ -90,9 +86,7 @@ i {
         font-family: 'Open Sans', sans-serif;  
         font-weight: 300;
   }
-
-/* --- ITEMS with PRICES on SAME LINE SPACED APART ENDS HERE --- */
-
+/* --- MENU CATEGORY SECTIONS --- */
 .superslices_menu_section {
     color: black;
     width: 24%;
@@ -123,6 +117,7 @@ i {
     width: 24%;
     margin: 10px 14px;
 }
+/* --- MEDIA QUERY for DESKTOP VIEW --- */
 @media screen and (min-width: 481px) {
     .menu_main_container {
         display: block;
@@ -131,7 +126,7 @@ i {
         display: none;
     }
 }
-/* --- MEDIA QUERIES STARTS HERE --- */
+/* --- MEDIA QUERY FOR MOBILE VIEW --- */
 @media screen and (max-width: 480px) and (min-width: 320px) {
     body {
         width: 480px;
@@ -147,7 +142,7 @@ i {
         padding: 0px;
     }
     .menu_headline_section {
-        display: none;
+        display: block;
     }
     .menu_items_container {
         display: none;
@@ -228,6 +223,7 @@ i {
   
     color: white;
     background: rgba(0, 0, 0, .9);
+    border-bottom: solid 1px white;
   
     cursor: pointer;
   
@@ -264,7 +260,7 @@ i {
   }
   
   .toggle:checked + .lbl-toggle + .collapsible-content {
-    max-height: 450px;
+    max-height: 470px;
   }
   
   .toggle:checked + .lbl-toggle {
