@@ -243,6 +243,7 @@ export default class Menu extends Component {
                     <label for="collapsible1" className="lbl-toggle">2 Foot Super Slices</label>
                         <div className="collapsible-content">
                             <div className="content-inner">
+                            <h2 className='menu_category_titles'>2 FOOT SUPER SLICES</h2>
                                 <ul className='items_list_column'>
                                     <li className="list">
                                         <i className='item'>Regular</i>
@@ -333,6 +334,7 @@ export default class Menu extends Component {
                     <label for="collapsible2" className="lbl-toggle">Appetizers</label>
                         <div className="collapsible-content">
                             <div className="content-inner">
+                            <h2 className='menu_category_titles'>APPETIZERS</h2>
                                 <ul className='items_list_column'>
                                     <li className="list">
                                         <i className='item'>Buffalo Wings</i>
@@ -383,6 +385,7 @@ export default class Menu extends Component {
                     <label for="collapsible3" className="lbl-toggle">Salads</label>
                         <div className="collapsible-content">
                             <div className="content-inner">
+                            <h2 className='menu_category_titles'>SALADS</h2>
                                 <ul className='items_list_column'>
                                     <li className="list">
                                         <i className='item'>House Salad</i>
@@ -409,6 +412,7 @@ export default class Menu extends Component {
                     <label for="collapsible4" className="lbl-toggle">Desserts</label>
                         <div className="collapsible-content">
                             <div className="content-inner">
+                            <h2 className='menu_category_titles'>DESSERTS</h2>
                                 <ul>
                                     <li className="list">
                                         <i className='item'>XL Sicilian Cannoli</i>
@@ -433,6 +437,7 @@ export default class Menu extends Component {
                     <label for="collapsible5" className="lbl-toggle">Pasta &amp; Entrees</label>
                         <div className="collapsible-content">
                             <div className="content-inner">
+                            <h2 className='menu_category_titles'>PASTA &amp; ENTREES</h2>
                                 <ul className='items_list_column'>
                                     <li className="list">
                                         <i className='item'>Baked Ziti</i>
@@ -463,6 +468,7 @@ export default class Menu extends Component {
                     <label for="collapsible6" className="lbl-toggle">Wedges</label>
                         <div className="collapsible-content">
                             <div className="content-inner">
+                            <h2 className='menu_category_titles'>WEDGES</h2>
                                 <ul className='items_list_column'>
                                     <li className="list">
                                         <i className='item'>Meatball Parm</i>
