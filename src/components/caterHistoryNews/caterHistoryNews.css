@@ -246,7 +246,7 @@
 .cHN-newsBlock-linkContain{
     display: flex;
     flex-direction: row;
-    margin: 75px 135px 0px 128px;
+    margin: 0px 135px 0px 128px;
     justify-content: space-between;
     align-items:center;
 }
