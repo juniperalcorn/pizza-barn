@@ -368,6 +368,7 @@
     display: grid;
     grid-template: repeat(12, 45px) / repeat(2, .5fr);
     margin-bottom: -130px;
+    margin-left: 16px;
 }
 
  .cHN-caterBlock-cater-title-mobile{
@@ -375,7 +376,7 @@
     font-size: 16px;
     font-weight: normal;
     display: grid;
-    margin-left: 22px;
+    margin-left: 38px;
     padding-top: 10px;
     margin-bottom: 5px;
  }
