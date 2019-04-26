@@ -246,7 +246,7 @@
 .cHN-newsBlock-linkContain{
     display: flex;
     flex-direction: row;
-    margin: 75px 135px 0px 128px;
+    margin: 0px 135px 0px 128px;
     justify-content: space-between;
     align-items:center;
 }
@@ -368,6 +368,7 @@
     display: grid;
     grid-template: repeat(12, 45px) / repeat(2, .5fr);
     margin-bottom: -130px;
+    margin-left: 16px;
 }
 
  .cHN-caterBlock-cater-title-mobile{
@@ -375,7 +376,7 @@
     font-size: 16px;
     font-weight: normal;
     display: grid;
-    margin-left: 22px;
+    margin-left: 38px;
     padding-top: 10px;
     margin-bottom: 5px;
  }
@@ -573,7 +574,7 @@
     line-height: 1.2;
     color: #000000;
     padding-top: 22px;
-    padding-bottom: 18px;
+    padding-bottom: 25px;
 }
 .cHN-historyBlock-lineContain{
     display: flex;
@@ -587,17 +588,17 @@
 .cHN-historyBlock-lineContain-years{
     width: 42px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color:#d53717;
     padding-left: 22px;
 }
 #cHN-historyBlock-lineContain-years-1{
-    margin-top: -5px;
+    margin-top: -4px;
 }
 #cHN-historyBlock-lineContain-years-2{
-    padding-top: 148px;
-    padding-bottom: 173px;
+    padding-top: 151px;
+    padding-bottom: 175px;
 }
 
 .cHN-historyBlock-lineContain-line{
