@@ -63,7 +63,7 @@ export default class Header extends Component {
 
         <div className='footerMobile'>
 
-          <div className='fuckingDiv'>
+          <div className='niceDiv'>
             <div className='addressMobile'>
 
               <p>(914) 378-1400
