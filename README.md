@@ -8,5 +8,4 @@ React and javascript, with Heroku deployment here Pizza Barn](https://pizza-barn
 `npm install`
 
 ### Run the app
-
-1. `npm start`
+`npm start`
